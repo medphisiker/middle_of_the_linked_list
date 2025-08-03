@@ -45,9 +45,10 @@ def test():
     # конечное положение указателей из алгоритма Флойда:
     # s - slow, f - fast
     #
-    # s
-    # 1
-    # f
+    #              s
+    # 1 2 3 ... 50 51 ... 99 100 
+    #                         f
+    
     values = list(range(1, 101))  # [1, ..., 100]
     linked_list = create_linked_list(values=values)
     solution = Solution()
